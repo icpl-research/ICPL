@@ -49,7 +49,7 @@ python icpl.py preference_type='auto' env={environment} iteration={num_iteration
 
 For using sparse reward instead of preferences, run:
 ```
-python icpl.py preference_type='no' use_sparse_reward=True user_list_only=False use_history_diff=False use_reward_trace=False
+python icpl.py preference_type='no' use_sparse_reward=True user_list_only=False use_history_diff=False use_reward_trace=False env={environment} iteration={num_iterations} sample={num_samples}
 ```
 
 Each run will create a timestamp folder in icpl/outputs that saves the ICPL log.
