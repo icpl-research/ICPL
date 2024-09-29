@@ -1,0 +1,6 @@
+The following are two reward functions written in Python code used for the task: {task_description}.
+The first reward function is as follows: 
+{reward_code_1}
+The second reward function is as follows: 
+{reward_code_2}
+Please directly describe the differences of these two codes. No additional descriptions other than the differences are required.

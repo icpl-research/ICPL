@@ -1,0 +1,4 @@
+The reward function has been iterated {num_iterations} rounds. 
+In each iteration, a good reward function and a bad reward function are generated. 
+The good reward function generated in the x-th iteration is denoted as "iterx-good", and the bad reward function generated is denoted as "iterx-bad". 
+The following outlines the differences between these reward functions.

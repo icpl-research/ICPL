@@ -1,0 +1,3 @@
+task: HumanoidDance # Environment class Name in the environment file
+env_name: humanoid_dance # Environment file name
+description: to make the humanoid perform a series of dance movements emphasizing expressiveness and creativity. 

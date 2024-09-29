@@ -1,0 +1,8 @@
+task: HumanoidJump # Environment class Name in the environment file
+env_name: humanoid_jump # Environment file name
+# description: to make the humanoid jump. There are three key aspects you can consider paying attention to:\\
+#   1. Jump Height. Achieve maximum vertical height by elevating the center of mass as much as possible.\\
+#   2. Balance. Maintain stability during take-off, mid-air, and landing to avoid falling or stumbling.\\
+#   3. Duration. Sustain the jump for as long as possible while ensuring a controlled and safe landing.\\
+#   You can also take more aspects into consideration.
+description: to make the humanoid jump like a real human

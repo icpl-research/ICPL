@@ -1,0 +1,1 @@
+The behavior trained based on {response_index} reward function is as follows: 

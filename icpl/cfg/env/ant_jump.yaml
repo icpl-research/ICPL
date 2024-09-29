@@ -1,0 +1,3 @@
+task: AntJump
+env_name: ant_jump
+description: to make the ant jump up and flip exactly 5 times before landing, pay attention to the number of flips.

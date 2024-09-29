@@ -1,0 +1,3 @@
+The reward function has been iterated {num_iterations} rounds. 
+In iteration x, we select a good reward function and denote it as "iterx-good". 
+The following outlines the differences between these reward functions.

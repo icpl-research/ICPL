@@ -1,0 +1,3 @@
+The following content is the MOST important information.
+Good example: 1st reward function. Bad example: 2nd reward function.
+You need to modify based on the good examples. DO NOT based on the bad examples.
