@@ -1,6 +1,6 @@
 # Few-shot In-context Preference Learning using Large Language Models
-
-Designing reward functions is a core component of reinforcement learning but can be challenging for truly complex behavior. Reinforcement Learning from Human Feedback (RLHF) has been used to alleviate this challenge by replacing a hand-coded reward function with a reward function learned from preferences. However, it can be exceedingly inefficient to learn these rewards as they are often learned tabula rasa. We investigate whether Large Language Models (LLMs) can reduce this query inefficiency by converting an iterative series of human preferences into code representing the rewards. We propose In-Context Preference Learning (ICPL), a method that uses the grounding of an LLM to accelerate learning reward functions from preferences. ICPL takes the environment context and task description, synthesizes a set of reward functions, and then repeatedly updates the reward functions using human feedback over videos of the resultant policies over a small number of trials. Using synthetic preferences, we demonstrate that ICPL is orders of magnitude more efficient than RLHF and is even competitive with methods that use ground-truth reward functions instead of preferences. Finally, we perform a series of human preference-learning trials and observe that ICPL extends beyond synthetic settings and can work effectively with humans-in-the-loop. 
+![overview](images/overview.png)
+This repository is the official codebase of "Few-shot In-context Preference Learning using Large Language Models". We propose In-Context Preference Learning (ICPL), a method that uses the grounding of an LLM to accelerate learning reward functions from preferences. 
 
 # Installation
 ICPL requires Python ≥ 3.8. 
@@ -56,6 +56,7 @@ Each run will create a timestamp folder in icpl/outputs that saves the ICPL log.
 
 # Acknowledgement
 We thank the following open-sourced projects:
+- Our code is based on [Eureka](https://github.com/eureka-research/Eureka).
 - Our environments are from [IsaacGym](https://github.com/NVIDIA-Omniverse/IsaacGymEnvs) and [DexterousHands](https://github.com/PKU-MARL/DexterousHands/).
 - Our RL training code is based on [rl_games](https://github.com/Denys88/rl_games).
 
